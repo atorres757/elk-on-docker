@@ -29,4 +29,4 @@ Run docker-build.sh and then docker-run.sh to run the container. This container 
 The kibana UI can be accessed at ```http://localhost:5601/```
 
 ## /logstash
-Update Dockerfile with connection information for Salesforce and Elasticsearch output. This container uses the shared network and links to to the elastic container.
+This container uses the shared network and links to to the elastic container.
